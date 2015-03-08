@@ -1,0 +1,53 @@
+body {
+   font-size: 15px;
+    color: #000;
+}
+.hexviewer {
+
+}
+.hexviewer > div {
+}
+.hex {   
+    
+}
+.ascii {
+    color: #555;
+}
+div.heading {
+    font-family: monospace;
+    
+    width: 4.5em;
+    float: left;
+}
+div.row {
+    height: 25px;
+    line-height: 25px;
+}
+.none {
+    visibility: hidden;
+}
+ul.set {
+    float:left;
+   
+    margin:0;padding:0;
+    font-family: monospace;
+    
+    text-align:center;
+    margin-right:5px;
+    margin-left: 5px;
+}
+ul.set li {
+    margin:0;padding:0;
+
+    display: inline-block;
+    width: 1.5em;
+}
+
+ul.set.active {
+    color: green;
+}
+ul.set li.active {
+    font-weight:bold;
+    color: white;
+    background-color: green;
+} 

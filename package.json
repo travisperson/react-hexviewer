@@ -1,0 +1,43 @@
+{
+  "name": "react-hexviewer",
+  "version": "1.0.0",
+  "description": "React Hex Viewer Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/travisperson/react-hexviewer.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "hex",
+    "hexviewer"
+  ],
+  "author": "Travis Person <travis.person@gmail.com> (http://travisperson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travisperson/react-hexviewer/issues"
+  },
+  "homepage": "https://github.com/travisperson/react-hexviewer",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "gulp-react": "^3.0.0",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify"
+      ]
+    ]
+  }
+}
