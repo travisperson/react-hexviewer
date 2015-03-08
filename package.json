@@ -1,6 +1,6 @@
 {
   "name": "react-hexviewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hex Viewer Component",
   "main": "index.js",
   "scripts": {
