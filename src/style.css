@@ -37,11 +37,13 @@
     width: 1.5em;
 }
 
-.hexviewer ul.set.active {
+.hexviewer ul.setAscii.active,
+.hexviewer ul.setHex.active {
     color: green;
 }
 
-.hexviewer ul.set li.active {
+.hexviewer ul.setAscii li.active,
+.hexviewer ul.setHex li.active {
     font-weight:bold;
     color: white;
     background-color: green;

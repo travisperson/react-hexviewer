@@ -6,4 +6,4 @@ for (var i = 0; i < 295; i++) {
 	data.push(parseInt(Math.random() * 255))
 }
 
-React.render(<HexViewer buffer={data} rowLength={16} setLength={4} />, document.getElementById('example'));
+React.render(<HexViewer buffer={new Buffer(data)} rowLength={16} setLength={4} />, document.getElementById('example'));
