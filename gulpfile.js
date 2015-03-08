@@ -24,7 +24,7 @@ gulp.task('build', function() {
 		debug: true
 	})
 	.bundle()
-	.pipe(source('hexview.js'))
+	.pipe(source('hexviewer.js'))
 	.pipe(gulp.dest('src'))
 })
 
