@@ -3,7 +3,8 @@ React Hex Viewer
 
 ![Screenshot](/images/ss.png)
 
-```
+**Example**
+```javascript
 var React = require('react')
 var HexViewer = require('react-hexviewer');
 
