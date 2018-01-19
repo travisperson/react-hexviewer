@@ -4,8 +4,8 @@ var source = require("vinyl-source-stream");
 var jshint = require("gulp-jshint");
 var react = require("gulp-react");
 
-gulp.task('default', ['jshint', 'build'], function () {
-	gulp.watch(['lib/**/*.js'], ['jshint', 'build'])
+gulp.task('default', ['jshint', 'build', 'example'], function () {
+	gulp.watch(['lib/**/*.js'], ['jshint', 'build', 'example'])
 })
 
 gulp.task('example', function() {
@@ -25,7 +25,7 @@ gulp.task('build', function() {
 	})
 	.bundle()
 	.pipe(source('hexviewer.js'))
-	.pipe(gulp.dest('src'))
+	.pipe(gulp.dest('src')) // TODO: change this to a build or dist directory
 })
 
 gulp.task('jshint', function() {
